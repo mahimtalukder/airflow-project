@@ -41,23 +41,19 @@ browser = webdriver.Chrome(service=webdriver_service, options=chrome_options)
 # Get page
 
 browser.get("http://localhost:8000/store")
+time.sleep(10)
+
+phones = browser.find_elements("css selector",'div.text-base-regular')
+
+for element in phones:
+    model = element.find_element("css selector",'span')
+    print(model.text)
 
 
-
-# Extract description from page and print
-
-products = browser.find_elements("css selector",'div.text-base-regular')
-
-print("Product Name ------------------------------- Product Price")
-for element in products:
-
-    title = element.find_element("css selector",'span')
-    price = element.find_element("css selector",'span.font-semibold')
-    
-    print(title.text + " ------------------------------- " + price.text)
+# with open('file.html', 'w') as file:
+#     file.write(browser.page_source)
+# print(browser.page_source)
 
 
 
 #Wait for 10 seconds
-
-time.sleep(10)

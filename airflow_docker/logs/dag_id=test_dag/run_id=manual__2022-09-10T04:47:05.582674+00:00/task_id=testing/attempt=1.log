@@ -1,0 +1,28 @@
+[2022-09-10T04:47:06.398+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_dag.testing manual__2022-09-10T04:47:05.582674+00:00 [queued]>
+[2022-09-10T04:47:06.411+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_dag.testing manual__2022-09-10T04:47:05.582674+00:00 [queued]>
+[2022-09-10T04:47:06.411+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-10T04:47:06.412+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 6
+[2022-09-10T04:47:06.412+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-10T04:47:06.431+0000] {taskinstance.py:1389} INFO - Executing <Task(BashOperator): testing> on 2022-09-10 04:47:05.582674+00:00
+[2022-09-10T04:47:06.436+0000] {standard_task_runner.py:52} INFO - Started process 701 to run task
+[2022-09-10T04:47:06.440+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'test_dag', 'testing', 'manual__2022-09-10T04:47:05.582674+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmpo_qjlhmb', '--error-file', '/tmp/tmp8w1jl_hg']
+[2022-09-10T04:47:06.441+0000] {standard_task_runner.py:80} INFO - Job 3: Subtask testing
+[2022-09-10T04:47:06.504+0000] {task_command.py:371} INFO - Running <TaskInstance: test_dag.testing manual__2022-09-10T04:47:05.582674+00:00 [running]> on host e432d852001f
+[2022-09-10T04:47:06.596+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=clickSpikes
+AIRFLOW_CTX_DAG_ID=test_dag
+AIRFLOW_CTX_TASK_ID=testing
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-10T04:47:05.582674+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-10T04:47:05.582674+00:00
+[2022-09-10T04:47:06.597+0000] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-09-10T04:47:06.597+0000] {subprocess.py:74} INFO - Running command: ['/bin/bash', '-c', 'echo hello world, this is the first task! Allhamdulilla']
+[2022-09-10T04:47:06.605+0000] {subprocess.py:85} INFO - Output:
+[2022-09-10T04:47:06.607+0000] {subprocess.py:92} INFO - hello world, this is the first task! Allhamdulilla
+[2022-09-10T04:47:06.607+0000] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-09-10T04:47:06.845+0000] {taskinstance.py:1412} INFO - Marking task as SUCCESS. dag_id=test_dag, task_id=testing, execution_date=20220910T044705, start_date=20220910T044706, end_date=20220910T044706
+[2022-09-10T04:47:06.892+0000] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-09-10T04:47:06.923+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,402 @@
+[2022-09-09T23:02:17.650+0600] {processor.py:153} INFO - Started process (PID=2111) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:02:17.650+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:02:17.650+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:02:17.650+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:02:17.652+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:02:17.651+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py", line 15
+    start_data = datetime(2022, 9, 9, 11)
+                 ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-09-09T23:02:17.653+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:02:17.673+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.025 seconds
+[2022-09-09T23:02:49.966+0600] {processor.py:153} INFO - Started process (PID=2147) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:02:49.968+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:02:49.968+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:02:49.968+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:02:49.969+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:02:49.969+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py", line 15
+    start_data = datetime(2022, 9, 9, 11)
+                 ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-09-09T23:02:49.969+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:02:49.988+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.024 seconds
+[2022-09-09T23:03:22.676+0600] {processor.py:153} INFO - Started process (PID=2186) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:03:22.677+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:03:22.677+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:03:22.677+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:03:22.678+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:03:22.678+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py", line 15
+    start_data = datetime(2022, 9, 9, 11)
+                 ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-09-09T23:03:22.678+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:03:22.698+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.024 seconds
+[2022-09-09T23:03:55.257+0600] {processor.py:153} INFO - Started process (PID=2222) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:03:55.260+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:03:55.260+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:03:55.260+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:03:55.261+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:03:55.261+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py", line 15
+    start_data = datetime(2022, 9, 9, 11)
+                 ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-09-09T23:03:55.261+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:03:55.280+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.024 seconds
+[2022-09-09T23:04:30.022+0600] {processor.py:153} INFO - Started process (PID=2257) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:04:30.024+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:04:30.025+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:04:30.025+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:04:30.026+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:04:30.026+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py", line 15
+    start_data = datetime(2022, 9, 9, 11)
+                 ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-09-09T23:04:30.026+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:04:30.057+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.036 seconds
+[2022-09-09T23:05:09.497+0600] {processor.py:153} INFO - Started process (PID=2295) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:05:09.498+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:05:09.499+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:05:09.499+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:05:09.506+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:05:09.503+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py", line 15
+    start_data = datetime(2022, 9, 9, 11)
+                 ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-09-09T23:05:09.506+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:05:09.548+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.052 seconds
+[2022-09-09T23:05:41.354+0600] {processor.py:153} INFO - Started process (PID=2330) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:05:41.354+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:05:41.354+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:05:41.354+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:05:41.356+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:05:41.355+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py", line 15
+    start_data = datetime(2022, 9, 9, 11)
+                 ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-09-09T23:05:41.356+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:05:41.383+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.031 seconds
+[2022-09-09T23:06:16.241+0600] {processor.py:153} INFO - Started process (PID=2378) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:06:16.242+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:06:16.242+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:06:16.242+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:06:16.243+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:06:16.243+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py", line 15
+    start_data = datetime(2022, 9, 9, 11)
+                 ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-09-09T23:06:16.244+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:06:16.272+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.032 seconds
+[2022-09-09T23:06:49.528+0600] {processor.py:153} INFO - Started process (PID=2421) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:06:49.530+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:06:49.530+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:06:49.530+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:06:49.532+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:06:49.531+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py", line 15
+    start_data = datetime(2022, 9, 9, 11)
+                 ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-09-09T23:06:49.532+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:06:49.560+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.033 seconds
+[2022-09-09T23:07:24.364+0600] {processor.py:153} INFO - Started process (PID=2462) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:07:24.366+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:07:24.366+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:07:24.366+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:07:24.367+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:07:24.367+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py", line 15
+    start_data = datetime(2022, 9, 9, 11)
+                 ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2022-09-09T23:07:24.368+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:07:24.395+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.032 seconds
+[2022-09-09T23:07:57.981+0600] {processor.py:153} INFO - Started process (PID=2524) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:07:57.983+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:07:57.983+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:07:57.983+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:07:57.986+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:07:57.986+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'defalut_args'
+[2022-09-09T23:07:57.986+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:07:58.019+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.039 seconds
+[2022-09-09T23:08:32.982+0600] {processor.py:153} INFO - Started process (PID=2572) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:08:32.984+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:08:32.984+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:08:32.984+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:08:32.986+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:08:32.986+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'defalut_args'
+[2022-09-09T23:08:32.987+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:08:33.015+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.035 seconds
+[2022-09-09T23:09:07.104+0600] {processor.py:153} INFO - Started process (PID=2615) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:09:07.106+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:09:07.106+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:09:07.106+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:09:07.108+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:09:07.108+0600] {dagbag.py:321} ERROR - Failed to import: /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+Traceback (most recent call last):
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py", line 11, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'defalut_args'
+[2022-09-09T23:09:07.108+0600] {processor.py:652} WARNING - No viable dags retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:09:07.135+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.033 seconds
+[2022-09-09T23:09:41.709+0600] {processor.py:153} INFO - Started process (PID=2660) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:09:41.711+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:09:41.711+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:09:41.711+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:09:41.716+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:09:41.793+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:09:41.792+0600] {manager.py:508} INFO - Created Permission View: can edit on DAG:test_dag
+[2022-09-09T23:09:41.815+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:09:41.815+0600] {manager.py:508} INFO - Created Permission View: can read on DAG:test_dag
+[2022-09-09T23:09:41.838+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:09:41.838+0600] {manager.py:508} INFO - Created Permission View: can delete on DAG:test_dag
+[2022-09-09T23:09:41.838+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:09:41.838+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:09:41.843+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:09:41.843+0600] {dag.py:2448} INFO - Creating ORM DAG for test_dag
+[2022-09-09T23:09:41.850+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:09:41.850+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2022-09-09T23:09:41.927+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.219 seconds
+[2022-09-09T23:10:14.250+0600] {processor.py:153} INFO - Started process (PID=2695) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:10:14.252+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:10:14.253+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:10:14.253+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:10:14.257+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:10:14.267+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:10:14.267+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:10:14.277+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:10:14.277+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2022-09-09T23:10:14.302+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.053 seconds
+[2022-09-09T23:10:48.221+0600] {processor.py:153} INFO - Started process (PID=2746) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:10:48.223+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:10:48.223+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:10:48.223+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:10:48.228+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:10:48.237+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:10:48.237+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:10:48.247+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:10:48.247+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2022-09-09T23:10:48.273+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.053 seconds
+[2022-09-09T23:11:29.491+0600] {processor.py:153} INFO - Started process (PID=2817) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:11:29.492+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:11:29.492+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:11:29.492+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:11:29.497+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:11:29.510+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:11:29.510+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:11:29.525+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:11:29.525+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2021-08-11T00:00:00+00:00, run_after=2021-08-12T00:00:00+00:00
+[2022-09-09T23:11:29.554+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.065 seconds
+[2022-09-09T23:12:12.200+0600] {processor.py:153} INFO - Started process (PID=2928) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:12:12.201+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:12:12.201+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:12:12.201+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:12:12.206+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:12:12.217+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:12:12.217+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:12:12.228+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:12:12.228+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2021-09-04T00:00:00+00:00, run_after=2021-09-05T00:00:00+00:00
+[2022-09-09T23:12:12.246+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.048 seconds
+[2022-09-09T23:12:54.886+0600] {processor.py:153} INFO - Started process (PID=3036) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:12:54.887+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:12:54.887+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:12:54.887+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:12:54.891+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:12:54.902+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:12:54.902+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:12:54.913+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:12:54.913+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2021-09-27T00:00:00+00:00, run_after=2021-09-28T00:00:00+00:00
+[2022-09-09T23:12:54.930+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.045 seconds
+[2022-09-09T23:13:39.512+0600] {processor.py:153} INFO - Started process (PID=3144) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:13:39.514+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:13:39.514+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:13:39.514+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:13:39.523+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:13:39.535+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:13:39.535+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:13:39.545+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:13:39.545+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2021-10-21T00:00:00+00:00, run_after=2021-10-22T00:00:00+00:00
+[2022-09-09T23:13:39.569+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.060 seconds
+[2022-09-09T23:14:26.287+0600] {processor.py:153} INFO - Started process (PID=3248) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:14:26.289+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:14:26.289+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:14:26.289+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:14:26.293+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:14:26.303+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:14:26.303+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:14:26.312+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:14:26.312+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2021-11-13T00:00:00+00:00, run_after=2021-11-14T00:00:00+00:00
+[2022-09-09T23:14:26.329+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.043 seconds
+[2022-09-09T23:15:08.105+0600] {processor.py:153} INFO - Started process (PID=3356) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:15:08.106+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:15:08.106+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:15:08.106+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:15:08.110+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:15:08.120+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:15:08.120+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:15:08.130+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:15:08.130+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2021-12-07T00:00:00+00:00, run_after=2021-12-08T00:00:00+00:00
+[2022-09-09T23:15:08.147+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.044 seconds
+[2022-09-09T23:15:49.590+0600] {processor.py:153} INFO - Started process (PID=3462) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:15:49.592+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:15:49.592+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:15:49.592+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:15:49.596+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:15:49.606+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:15:49.606+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:15:49.616+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:15:49.616+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2021-12-30T00:00:00+00:00, run_after=2021-12-31T00:00:00+00:00
+[2022-09-09T23:15:49.640+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.052 seconds
+[2022-09-09T23:16:34.205+0600] {processor.py:153} INFO - Started process (PID=3571) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:16:34.206+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:16:34.206+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:16:34.206+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:16:34.211+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:16:34.223+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:16:34.222+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:16:34.235+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:16:34.235+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2022-01-23T00:00:00+00:00, run_after=2022-01-24T00:00:00+00:00
+[2022-09-09T23:16:34.261+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.058 seconds
+[2022-09-09T23:17:20.089+0600] {processor.py:153} INFO - Started process (PID=3681) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:17:20.091+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:17:20.092+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:17:20.092+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:17:20.095+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:17:20.106+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:17:20.106+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:17:20.117+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:17:20.117+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2022-02-15T00:00:00+00:00, run_after=2022-02-16T00:00:00+00:00
+[2022-09-09T23:17:20.142+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.055 seconds
+[2022-09-09T23:18:08.593+0600] {processor.py:153} INFO - Started process (PID=3793) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:18:08.595+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:18:08.595+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:18:08.595+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:18:08.600+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:18:08.611+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:18:08.611+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:18:08.623+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:18:08.623+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2022-03-11T00:00:00+00:00, run_after=2022-03-12T00:00:00+00:00
+[2022-09-09T23:18:08.649+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.057 seconds
+[2022-09-09T23:18:54.584+0600] {processor.py:153} INFO - Started process (PID=3900) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:18:54.586+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:18:54.586+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:18:54.586+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:18:54.590+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:18:54.600+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:18:54.600+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:18:54.610+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:18:54.610+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2022-04-03T00:00:00+00:00, run_after=2022-04-04T00:00:00+00:00
+[2022-09-09T23:18:54.637+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.054 seconds
+[2022-09-09T23:19:38.910+0600] {processor.py:153} INFO - Started process (PID=4014) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:19:38.915+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:19:38.915+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:19:38.915+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:19:38.919+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:19:38.929+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:19:38.929+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:19:38.941+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:19:38.941+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2022-04-27T00:00:00+00:00, run_after=2022-04-28T00:00:00+00:00
+[2022-09-09T23:19:38.958+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.050 seconds
+[2022-09-09T23:20:23.478+0600] {processor.py:153} INFO - Started process (PID=4146) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:20:23.479+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:20:23.480+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:20:23.480+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:20:23.484+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:20:23.494+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:20:23.494+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:20:23.505+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:20:23.505+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2022-05-20T00:00:00+00:00, run_after=2022-05-21T00:00:00+00:00
+[2022-09-09T23:20:23.531+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.054 seconds
+[2022-09-09T23:21:12.114+0600] {processor.py:153} INFO - Started process (PID=4312) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:21:12.115+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:21:12.115+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:21:12.115+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:21:12.119+0600] {processor.py:650} INFO - DAG(s) dict_keys(['test_dag']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:21:12.131+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:21:12.131+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:21:12.143+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:21:12.142+0600] {dag.py:2977} INFO - Setting next_dagrun for test_dag to 2022-06-13T00:00:00+00:00, run_after=2022-06-14T00:00:00+00:00
+[2022-09-09T23:21:12.167+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.055 seconds
+[2022-09-09T23:21:52.970+0600] {processor.py:153} INFO - Started process (PID=4382) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:21:52.971+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:21:52.972+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:21:52.972+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:21:52.977+0600] {processor.py:650} INFO - DAG(s) dict_keys(['first_task_v2']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:21:53.055+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:21:53.055+0600] {manager.py:508} INFO - Created Permission View: can edit on DAG:first_task_v2
+[2022-09-09T23:21:53.258+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:21:53.257+0600] {manager.py:508} INFO - Created Permission View: can read on DAG:first_task_v2
+[2022-09-09T23:21:53.281+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:21:53.281+0600] {manager.py:508} INFO - Created Permission View: can delete on DAG:first_task_v2
+[2022-09-09T23:21:53.281+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:21:53.281+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:21:53.286+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:21:53.286+0600] {dag.py:2448} INFO - Creating ORM DAG for first_task_v2
+[2022-09-09T23:21:53.291+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:21:53.291+0600] {dag.py:2977} INFO - Setting next_dagrun for first_task_v2 to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2022-09-09T23:21:53.318+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.350 seconds
+[2022-09-09T23:22:27.856+0600] {processor.py:153} INFO - Started process (PID=4421) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:22:27.858+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:22:27.859+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:22:27.859+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:22:27.863+0600] {processor.py:650} INFO - DAG(s) dict_keys(['first_task_v2']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:22:27.873+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:22:27.873+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:22:27.884+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:22:27.884+0600] {dag.py:2977} INFO - Setting next_dagrun for first_task_v2 to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2022-09-09T23:22:27.910+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.055 seconds
+[2022-09-09T23:23:01.773+0600] {processor.py:153} INFO - Started process (PID=4460) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:23:01.775+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:23:01.776+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:23:01.775+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:23:01.781+0600] {processor.py:650} INFO - DAG(s) dict_keys(['first_task_v2']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:23:01.791+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:23:01.791+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:23:01.804+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:23:01.804+0600] {dag.py:2977} INFO - Setting next_dagrun for first_task_v2 to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2022-09-09T23:23:01.845+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.075 seconds
+[2022-09-09T23:23:31.526+0600] {processor.py:153} INFO - Started process (PID=4499) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:23:31.527+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:23:31.528+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:23:31.528+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:23:31.532+0600] {processor.py:650} INFO - DAG(s) dict_keys(['first_task_v2']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:23:31.540+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:23:31.540+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:23:31.552+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:23:31.552+0600] {dag.py:2977} INFO - Setting next_dagrun for first_task_v2 to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2022-09-09T23:23:31.597+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.073 seconds
+[2022-09-09T23:24:09.052+0600] {processor.py:153} INFO - Started process (PID=4534) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:24:09.054+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:24:09.054+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:24:09.054+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:24:09.059+0600] {processor.py:650} INFO - DAG(s) dict_keys(['first_task_v2']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:24:09.069+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:24:09.068+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:24:09.081+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:24:09.081+0600] {dag.py:2977} INFO - Setting next_dagrun for first_task_v2 to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2022-09-09T23:24:09.097+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.047 seconds
+[2022-09-09T23:24:42.039+0600] {processor.py:153} INFO - Started process (PID=4569) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:24:42.041+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:24:42.041+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:24:42.041+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:24:42.046+0600] {processor.py:650} INFO - DAG(s) dict_keys(['first_task_v2']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:24:42.055+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:24:42.055+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:24:42.067+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:24:42.066+0600] {dag.py:2977} INFO - Setting next_dagrun for first_task_v2 to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2022-09-09T23:24:42.084+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.047 seconds
+[2022-09-09T23:25:33.442+0600] {processor.py:153} INFO - Started process (PID=4679) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:25:33.443+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:25:33.444+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:25:33.444+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:25:33.451+0600] {processor.py:650} INFO - DAG(s) dict_keys(['first_task_v2']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:25:33.465+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:25:33.465+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:25:33.477+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:25:33.477+0600] {dag.py:2977} INFO - Setting next_dagrun for first_task_v2 to 2021-08-12T00:00:00+00:00, run_after=2021-08-13T00:00:00+00:00
+[2022-09-09T23:25:33.496+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.056 seconds
+[2022-09-09T23:26:35.408+0600] {processor.py:153} INFO - Started process (PID=4840) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:26:35.409+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:26:35.410+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:26:35.410+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:26:35.415+0600] {processor.py:650} INFO - DAG(s) dict_keys(['first_task_v2']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:26:35.424+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:26:35.424+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:26:35.458+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:26:35.458+0600] {dag.py:2977} INFO - Setting next_dagrun for first_task_v2 to 2021-09-02T00:00:00+00:00, run_after=2021-09-03T00:00:00+00:00
+[2022-09-09T23:26:35.477+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.070 seconds
+[2022-09-09T23:27:37.512+0600] {processor.py:153} INFO - Started process (PID=5015) to work on /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:27:37.513+0600] {processor.py:640} INFO - Processing file /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py for tasks to queue
+[2022-09-09T23:27:37.513+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:27:37.513+0600] {dagbag.py:508} INFO - Filling up the DagBag from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:27:37.518+0600] {processor.py:650} INFO - DAG(s) dict_keys(['first_task_v2']) retrieved from /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py
+[2022-09-09T23:27:37.528+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:27:37.528+0600] {dag.py:2429} INFO - Sync 1 DAGs
+[2022-09-09T23:27:37.540+0600] {logging_mixin.py:115} INFO - [2022-09-09T23:27:37.540+0600] {dag.py:2977} INFO - Setting next_dagrun for first_task_v2 to 2021-09-23T00:00:00+00:00, run_after=2021-09-24T00:00:00+00:00
+[2022-09-09T23:27:37.557+0600] {processor.py:161} INFO - Processing /home/mahim-ubuntu/home/python/airflow-project/airflow/lib/python3.10/site-packages/airflow/example_dags/testDags.py took 0.046 seconds
